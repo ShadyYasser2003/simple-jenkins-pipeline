@@ -5,7 +5,6 @@ pipeline {
         stage('Checkout SCM') {
             steps {
                 git branch: 'main',
-                   # credentialsId: 'gitea-credentials',
                     url: 'https://gitea.com/shady_yasser/simple-jenkins-pipeline2.git'
             }
         }
