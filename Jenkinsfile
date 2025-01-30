@@ -5,7 +5,7 @@ pipeline {
         stage('Checkout SCM') {
             steps {
                 git branch: 'main',
-                    url: 'https://gitea.com/shady_yasser/simple-jenkins-pipeline2.git'
+                    url: 'https://github.com/ShadyYasser2003/simple-jenkins-pipeline2.git'
             }
         }
         stage('Build') {
